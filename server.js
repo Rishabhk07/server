@@ -9,7 +9,7 @@ app.get("/", (req,res)=>{
     res.send("<h1>hello from backend</h1>");
 })
 
-app.listen(PORT, ()=>{
+app.listen(9090, ()=>{
     console.log("server has started");
 })
 
